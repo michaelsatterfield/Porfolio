@@ -22,12 +22,14 @@ module.exports = {
       }
     },
     {
-      resolve: "gatsby-source-contentful",
+      resolve: `gatsby-source-contentful`,
       options: {
-        spaceId,
-        accessToken
-      }
+        spaceId: "hkvgiu5fxggy",
+        accessToken:  "CbRLo5AFuSiX9wD2QLe0I0hdbBSqiItbfEJdO3zjJi8",
+      },
     },
+
+
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-remark`,
