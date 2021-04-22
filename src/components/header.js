@@ -7,11 +7,15 @@ export default class Header extends Component {
     this.state = {
       menu: false
     };
+
   }
+
+
 
   render() {
     const { data, header } = this.props;
     const { menu } = this.state;
+    // console.log(data)
     return (
       <header className={`site-header ${menu ? "active" : ""}`}>
         <div className="container">
