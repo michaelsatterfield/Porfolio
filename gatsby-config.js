@@ -6,6 +6,8 @@ if (process.env.ENVIRONMENT !== "production") {
 
 const { spaceId, accessToken } = process.env;
 
+
+
 module.exports = {
   siteMetadata: {
     title: `Rohit Gupta`,
@@ -24,8 +26,10 @@ module.exports = {
     {
       resolve: `gatsby-source-contentful`,
       options: {
-        spaceId: "hkvgiu5fxggy",
-        accessToken:  "CbRLo5AFuSiX9wD2QLe0I0hdbBSqiItbfEJdO3zjJi8",
+        spaceId: `${process.env.CONTENTFUL_SPACE_ID}`,
+
+        accessToken: `${process.env.CONTENTFUL_ACCESS_TOKEN}`
+
       },
     },
 
