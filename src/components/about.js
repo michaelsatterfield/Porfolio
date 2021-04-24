@@ -31,20 +31,20 @@ const Header = ({ data }) => (
             <ul className="details">
               <li>
                 <strong>Full Name</strong>
-                <p>{data.name}</p>
+                <p>Michael Satterfield</p>
               </li>
-              <li>
-                <strong>Age</strong>
-                <p>{data.age} Years</p>
-              </li>
+              {/*<li>*/}
+              {/*  <strong>Age</strong>*/}
+              {/*  <p>{data.age} Years</p>*/}
+              {/*</li>*/}
               <li>
                 <strong>Location</strong>
-                <p>{data.location}</p>
+                <p>San Antonio,TX</p>
               </li>
               <li>
                 <strong>Email</strong>
                 <p>
-                  <a href={`mailto:${data.gmail}`}>{data.gmail}</a>
+                  <a href='mailto:https://michael.f.satterfield@gmail.com'>Email Me </a>
                 </p>
               </li>
             </ul>

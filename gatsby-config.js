@@ -40,8 +40,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Rohit Gupta`,
-        short_name: `Rohit Gupta`,
+        name: `Michael Satterfield`,
+        short_name: `Michael Satterfield`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#333`,
